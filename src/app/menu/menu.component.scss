@@ -1,0 +1,15 @@
+.logo{
+  width: 200px;
+}
+
+.dropdown-menu{
+  display: none;
+  li{
+    list-style: none;
+  }
+}
+
+
+.dropdown-menu.show{
+  display: flex;
+}
