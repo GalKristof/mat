@@ -13,6 +13,10 @@ import { CallUsComponent } from './call-us/call-us.component';
 import { DivideCurveComponent } from './curves/divide-curve/divide-curve.component';
 import { ServicesComponent } from './services/services.component';
 import { ServiceCardComponent } from './services/service-card/service-card.component';
+import { SubpageComponent } from './subpage/subpage.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { ServiceCardComponent } from './services/service-card/service-card.compo
     CallUsComponent,
     DivideCurveComponent,
     ServicesComponent,
-    ServiceCardComponent
+    ServiceCardComponent,
+    SubpageComponent,
+    GalleryComponent,
+    AboutUsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
