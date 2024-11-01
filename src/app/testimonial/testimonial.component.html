@@ -1,1 +1,21 @@
-<p>testimonial works!</p>
+<div class="container-fluid testimonials" #testimonialSection>
+  <h2>Eredményeink</h2>
+
+  <div class="row">
+    <div class="col-sm-4 stat">
+      <h3>{{ satisfactionPercent }}%</h3>
+      <p>Elégedettség</p>
+    </div>
+
+    <div class="col-sm-4 stat">
+      <h3>{{ cleaningOccasions | number }}</h3>
+      <p>Takarítás</p>
+    </div>
+
+    <div class="col-sm-4 stat">
+      <h3>{{ weeklyCustomers | number }}</h3>
+      <p>Állandó Ügyfél</p>
+    </div>
+  </div>
+</div>
+

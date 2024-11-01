@@ -1,0 +1,11 @@
+.card{
+  margin-bottom: 1.2rem;
+  transition: color 150ms ease, background-color 150ms ease, border-color 150ms ease;
+
+  &:hover{
+    color: #333!important;
+    cursor: pointer;
+    background-color: transparent!important;
+    border-color: #333;
+  }
+}

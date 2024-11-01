@@ -1,0 +1,50 @@
+.curve-container {
+  position: relative;
+  text-align: center;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  font-size: .9rem;
+  font-family: "Lexend", sans-serif;
+  color: black;
+}
+
+@media(min-width: 375px)
+{
+  .text-overlay{
+    font-size: 1.1rem;
+  }
+}
+
+@media(min-width: 425px)
+{
+  .text-overlay{
+    font-size: 1.2rem;
+  }
+}
+
+@media(min-width: 592px)
+{
+  .text-overlay{
+    font-size: 1.5rem;
+  }
+}
+
+@media(min-width: 768px)
+{
+  .text-overlay{
+    font-size: 2rem;
+  }
+}
+
+@media(min-width: 1024px)
+{
+  .text-overlay{
+    font-size: 2.3rem;
+  }
+}

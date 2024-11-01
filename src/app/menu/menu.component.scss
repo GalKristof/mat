@@ -1,15 +1,31 @@
 .logo{
   width: 200px;
+  margin-right: 2rem;
+}
+
+.nav-link{
+  color: white;
+  font-size: 1.2rem;
 }
 
 .dropdown-menu{
-  display: none;
   li{
     list-style: none;
   }
+
+  .dropdown-item{
+    padding-inline: 12px;
+    :hover{
+      cursor: pointer;
+    }
+    a, a.active, a:hover, a:focus, a:link{
+      color: black;
+      text-decoration: none;
+      padding-left: 8px;
+    }
+  }
 }
 
-
-.dropdown-menu.show{
-  display: flex;
+.dropdown-toggle.dropdowned:after{
+  transform: rotate(180deg);
 }

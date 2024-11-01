@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './menu.component.scss'
 })
 export class MenuComponent {
+  dropdownStatus = false;
 
+  changeDropdownStatus()
+  {
+    this.dropdownStatus = !this.dropdownStatus;
+  }
 }

@@ -9,28 +9,42 @@
         <a class="nav-link" href="#">Rólunk</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" [class.dropdowned]="dropdownStatus" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" (click)="changeDropdownStatus()">
           Szolgáltatások
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <ul class="dropdown-category">
-            <p>Category A</p>
-            <li><a class="dropdown-item" href="#">Takarítás</a></li>
-            <li><a class="dropdown-item" href="#">Zöldterület</a></li>
-            <li><a class="dropdown-item" href="#">Havária/Rendkívüli</a></li>
-            <li><a class="dropdown-item" href="#">Mobil Mosás Mentés</a></li>
-            <li><a class="dropdown-item" href="#">Síkosság-mentesítés</a></li>
-          </ul>
-          <ul class="dropdown-category">
-            <p>Category B</p>
-            <li><a class="dropdown-item" href="#">Speciális felületek tisztítása</a></li>
-            <li><a class="dropdown-item" href="#">Bútorszállítás, költöztetés</a></li>
-            <li><a class="dropdown-item" href="#">Lomtalanítás</a></li>
-            <li><a class="dropdown-item" href="#">Irodák/üzletek irodaszer ellátása</a></li>
-            <li><a class="dropdown-item" href="#">Dekorálás</a></li>
-            <li><a class="dropdown-item" href="#">Kivitelezés/karbantartás</a></li>
-          </ul>
-      </ul>
+            <li>
+              <div class="dropdown-item d-flex">
+                <i class="bi bi-droplet ml-3"></i>
+                <a href="#">Takarítás</a>
+              </div>
+            </li>
+            <li>
+              <div class="dropdown-item d-flex">
+                <i class="bi bi-tree"></i>
+                <a href="#">Zöldterület</a>
+              </div>
+            </li>
+            <li>
+              <div class="dropdown-item d-flex">
+                <i class="bi bi-exclamation-octagon"></i>
+                <a href="#">Havária/Rendkívüli</a>
+              </div>
+            </li>
+            <li>
+              <div class="dropdown-item d-flex">
+                <i class="bi bi-train-freight-front"></i>
+                <a href="#">Mobil Mosás Mentés</a>
+              </div>
+            </li>
+            <li>
+              <div class="dropdown-item d-flex">
+                <i class="bi bi-plus-circle"></i>
+                <a href="#">Extra szolgáltatások</a>
+              </div>
+            </li>
+        </ul>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Galéria</a>
       </li>

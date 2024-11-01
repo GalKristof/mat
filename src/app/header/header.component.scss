@@ -1,0 +1,13 @@
+.drawing{
+  img{
+    transform: rotateY(180deg);
+  }
+  display: none;
+  max-width: 500px;
+}
+
+@media(min-width:768px){
+  .drawing{
+    display: flex;
+  }
+}

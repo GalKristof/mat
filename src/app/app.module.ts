@@ -8,6 +8,11 @@ import { MenuComponent } from './menu/menu.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { TestimonialComponent } from './testimonial/testimonial.component';
+import { HeaderCurveComponent } from './curves/header-curve/header-curve.component';
+import { CallUsComponent } from './call-us/call-us.component';
+import { DivideCurveComponent } from './curves/divide-curve/divide-curve.component';
+import { ServicesComponent } from './services/services.component';
+import { ServiceCardComponent } from './services/service-card/service-card.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
     MenuComponent,
     HeaderComponent,
     FooterComponent,
-    TestimonialComponent
+    TestimonialComponent,
+    HeaderCurveComponent,
+    CallUsComponent,
+    DivideCurveComponent,
+    ServicesComponent,
+    ServiceCardComponent
   ],
   imports: [
     BrowserModule,
